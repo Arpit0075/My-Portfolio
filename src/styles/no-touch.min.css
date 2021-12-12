@@ -108,8 +108,9 @@ button:focus {
   background-blend-mode: normal;
   background-position: center;
 }
-.Photo.inverse-dark {
-  background-color: rgb(20, 19, 19);
+/* photo in global dark mode */
+.Photo-dark {
+  filter: invert(1);
 }
 .about-text {
   width: 80%;
@@ -197,6 +198,7 @@ button:focus {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  background-blend-mode: normal;
 }
 .image-project:hover .img-pro {
   transform: scale(1.2);
