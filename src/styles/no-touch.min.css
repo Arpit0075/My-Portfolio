@@ -110,7 +110,9 @@ button:focus {
 }
 /* photo in global dark mode */
 .Photo-dark {
-  filter: invert(1);
+  filter: invert(1) hue-rotate(180deg);
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  -moz-filter: invert(1) hue-rotate(180deg);
 }
 .about-text {
   width: 80%;
@@ -201,7 +203,7 @@ button:focus {
   background-blend-mode: normal;
 }
 .image-project:hover .img-pro {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .pp-head {
   text-align: center;
