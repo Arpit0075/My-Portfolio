@@ -25,8 +25,8 @@
   </body>
   <script>
     const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-    if (darkPref.matches && localStorage.getItem("mode") !== "Light")
-      localStorage.setItem("mode", "Light");
+    if (darkPref.matches && localStorage.getItem("mode") !== "Dark")
+      localStorage.setItem("mode", "Dark");
   </script>
   <script>
     const fun = () => {
@@ -34,11 +34,11 @@
         document.getElementById("mode-switch").checked = true;
         document.documentElement.classList.toggle("dark-mode");
         document.getElementById("not-dark").classList.toggle("inverse-dark");
-        //document.getElementById("not-dark2").classList.toggle("Photo-dark");
-        // var x = document.getElementsByClassName("img-pro");
-        // for (let i = 0; i < x.length; i += 1) {
-        //   x.item(i).classList.toggle("inverse-dark");
-        // }
+        document.getElementById("not-dark2").classList.toggle("Photo-dark");
+        var x = document.getElementsByClassName("img-pro");
+        for (let i = 0; i < x.length; i += 1) {
+          x.item(i).classList.toggle("Photo-dark");
+        }
       }
     };
     fun();

@@ -14,7 +14,7 @@ const Contact = () => {
         </>
         <div className="container">
           <div className="git-cont row">
-            <div className="col-12 col-sm-6 half">
+            <div className="col-12 col-sm-6 half ">
               <form
                 action={
                   contact.contactUrl
@@ -55,7 +55,7 @@ const Contact = () => {
                 </button>
               </form>
             </div>
-            <div className="col-12 col-sm-6 half">
+            <div className="col-12 col-sm-6 half contact-section">
               <p className="lead">{contact.pitch}</p>
               <div className="d-flex justify-content-center align-items-center flex-column">
                 <div className="inline-block">
@@ -66,7 +66,10 @@ const Contact = () => {
                       target="_blank"
                       href={social.linkedin}
                     >
-                      <i className="fab fa-linkedin"></i>
+                      <p className="social-p">
+                        <i className="fab fa-linkedin"></i>
+                        {social.linkedin}
+                      </p>
                     </a>
                   )}
                   {social.facebook && (
@@ -106,7 +109,10 @@ const Contact = () => {
                       target="_blank"
                       href={social.github}
                     >
-                      <i className="fab fa-github"></i>
+                      <p className="social-p">
+                        <i className="fab fa-github"></i>
+                        {social.github}
+                      </p>
                     </a>
                   )}
                   <br />

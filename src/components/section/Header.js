@@ -20,7 +20,7 @@ const Header = () => {
     <div>
       <div className="Header">
         <h1>{`I'm ${header.name}`}</h1>
-        <p className="line-1 anim-typewriter">and this is my portfolio... </p>
+        <p className="line-1 anim-typewriter">Full Stack Developer... </p>
         <label className="switch">
           <input
             id="mode-switch"

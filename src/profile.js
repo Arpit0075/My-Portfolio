@@ -13,7 +13,7 @@ const header = {
 };
 const background = {
   // Options: Snow or Particle
-  type: "Particle",
+  type: "Snow",
 };
 // para about yourself here
 // update the image, at './styles/images.css'
@@ -64,7 +64,7 @@ const projects = [
     //  image in './styles/images.css' in #project1
     id: "project1",
     name: "E-commerce",
-    skills: ["MERN", " Razorpay"],
+    skills: ["MERN Razorpay"],
     githubUrl: "https://github.com/Arpit0075/ecommerce",
     liveUrl: "https://ecommerce918.netlify.app",
   },
@@ -72,7 +72,8 @@ const projects = [
     //  image in './styles/images.css' in #project2
     id: "project2",
     name: "Group Chat",
-    skills: ["MERN", " socketio"],
+    skills: ["MERN Socketio"],
+    icon: "https://img.icons8.com/color/48/000000/mongodb.png",
     githubUrl: "https://github.com/Arpit0075/chatApp",
     liveUrl: "https://chatapp978.netlify.app",
   },
@@ -88,7 +89,7 @@ const projects = [
     //  image in './styles/images.css' in #project4
     id: "project4",
     name: "Google-Drive-Clone",
-    skills: ["React", " Firebase"],
+    skills: ["React Firebase"],
     githubUrl: "https://github.com/Arpit0075/google-drive-clone",
     liveUrl: "https://drive-clone-a509e.web.app",
   },
@@ -96,7 +97,7 @@ const projects = [
     //  image in './styles/images.css' in #project5
     id: "project5",
     name: "AWS-CRUD ",
-    skills: ["React", " DynamoDb", " Lambda"],
+    skills: ["React DynamoDb Lambda"],
     githubUrl: "https://github.com/Arpit0075/AWS-usersApi",
     liveUrl: "https://main.d39jd3p9en6gka.amplifyapp.com/",
   },
@@ -116,7 +117,7 @@ const social = {
   //facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
   //instagram: "https://instagram.com",
-  //linkedin: "https://linkedin.com",
+  linkedin: "https://linkedin.com/in/arpit-lal123",
 };
 
 export {

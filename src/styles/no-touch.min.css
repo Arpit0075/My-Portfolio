@@ -101,6 +101,19 @@ button:focus {
   right: 10px;
   left: auto;
 }
+.iconR {
+  height: 25px;
+  width: 70px;
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+.skill-icon {
+  display: flex;
+  align-items: center;
+}
 .Photo {
   background-color: #fff;
   background-size: cover;
@@ -110,9 +123,9 @@ button:focus {
 }
 /* photo in global dark mode */
 .Photo-dark {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
+  filter: invert(0);
+  -webkit-filter: invert(0);
+  -moz-filter: invert(0);
 }
 .about-text {
   width: 80%;
@@ -439,7 +452,7 @@ input:checked + .slider:before {
 }
 .line-1 {
   position: relative;
-  top: 10%;
+  top: 15%;
   width: 12em;
   margin: 0 auto;
   border-right: 2px solid rgba(25, 25, 25, 0.75);
@@ -451,7 +464,7 @@ input:checked + .slider:before {
   font-family: "Anonymous Pro", monospace !important;
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(27) 1s 1 normal both,
+  animation: typewriter 4s steps(27) infinite normal,
     blinkTextCursor 0.5s steps(27) infinite normal;
 }
 .parallax {
@@ -459,10 +472,10 @@ input:checked + .slider:before {
 }
 @keyframes typewriter {
   from {
-    width: 0;
+    width: 5em;
   }
   to {
-    width: 15em;
+    width: 13em;
   }
 }
 @keyframes blinkTextCursor {
@@ -545,8 +558,11 @@ input:checked + .slider:before {
     margin: 5px 0;
     padding: 10px;
   }
-  .half p {
+  form {
     display: none;
+  }
+  .contact-section {
+    width: 100%;
   }
   .gtp {
     left: 80%;

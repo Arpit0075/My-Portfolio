@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./app.css";
 import Particles from "./components/layouts/Particles";
 import Header from "./components/section/Header";
 import About from "./components/section/About";
