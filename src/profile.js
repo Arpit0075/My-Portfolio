@@ -64,7 +64,7 @@ const projects = [
     //  image in './styles/images.css' in #project1
     id: "project1",
     name: "E-commerce",
-    skills: ["MERN"],
+    skills: ["MERN", " Razorpay"],
     githubUrl: "https://github.com/Arpit0075/ecommerce",
     liveUrl: "https://ecommerce918.netlify.app",
   },
@@ -72,7 +72,7 @@ const projects = [
     //  image in './styles/images.css' in #project2
     id: "project2",
     name: "Group Chat",
-    skills: ["MERN"],
+    skills: ["MERN", " socketio"],
     githubUrl: "https://github.com/Arpit0075/chatApp",
     liveUrl: "https://chatapp978.netlify.app",
   },
