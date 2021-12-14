@@ -1,3 +1,7 @@
+.App {
+  max-height: max-content;
+}
+
 @media (max-width: 700px) {
   .lead {
     font-size: 14px;

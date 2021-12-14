@@ -1,6 +1,23 @@
 * {
   box-sizing: border-box;
 }
+
+/* skills icons */
+.react,
+.mongo,
+.node,
+.socketio,
+.razorpay,
+.dynamodb,
+.lambda,
+.firebase {
+  cursor: pointer;
+}
+
+.social-p {
+  display: flex;
+  align-items: center;
+}
 body {
   margin: 0;
   padding: 0;
@@ -113,6 +130,7 @@ button:focus {
 .skill-icon {
   display: flex;
   align-items: center;
+  margin-left: 0.5rem;
 }
 .Photo {
   background-color: #fff;
@@ -235,14 +253,14 @@ button:focus {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: max-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .git-form {
-  width: 1160px;
+  max-width: 1200px;
   box-sizing: border-box;
   display: block;
   margin: 3rem 3rem 0 3rem;
@@ -494,12 +512,55 @@ input:checked + .slider:before {
   color: #fff;
   background: var(--primary-color);
 }
-@media (max-width: 1300px) {
+@media (max-width: 350px) and (min-width: 300px) {
+  .socials {
+    margin-top: -40px;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 790px) {
+  .half form input,
+  textarea {
+    padding: 8px;
+    margin: 8px;
+  }
+  .git-form {
+    margin: 2rem 3rem 1rem 3rem;
+  }
+}
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+  .half form input,
+  textarea {
+    padding: 5px;
+    margin: 5px;
+  }
+  .half form button {
+    margin-top: 4px;
+    padding: 8px 8px;
+  }
+  .git-form {
+    margin: 2rem 3rem 1rem 3rem;
+  }
+}
+@media (min-width: 1300px) {
+  .half form input,
+  textarea {
+    padding: 8px;
+    margin: 6px;
+  }
+
   .effect2 {
     width: 100%;
   }
+  .git-form {
+    margin: 2rem 3rem 1rem 3rem;
+  }
 }
 @media (max-width: 800px) {
+  .contact-section {
+    height: max-content;
+  }
   .lead {
     font-weight: 300;
   }
@@ -544,7 +605,9 @@ input:checked + .slider:before {
   .git-form {
     width: 90%;
     padding: 5px;
-    padding-bottom: 35px;
+    padding-bottom: 1px;
+    margin: 2rem 3rem 1rem 3rem;
+    max-height: max-content;
   }
   .git-head-div {
     width: 75%;
@@ -558,12 +621,12 @@ input:checked + .slider:before {
     margin: 5px 0;
     padding: 10px;
   }
-  form {
+  /* form {
     display: none;
   }
   .contact-section {
     width: 100%;
-  }
+  } */
   .gtp {
     left: 80%;
     top: 87%;

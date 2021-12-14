@@ -13,16 +13,9 @@ const Contact = () => {
           </div>
         </>
         <div className="container">
-          <div className="git-cont row">
+          <div className="git-cont row contact-container">
             <div className="col-12 col-sm-6 half ">
-              <form
-                action={
-                  contact.contactUrl
-                    ? contact.contactUrl
-                    : "https://formspree.io"
-                }
-                method={contact.contactUrl ? "POST" : "GET"}
-              >
+              <form onSubmit={(e) => e.preventDefault()}>
                 <input
                   type="text"
                   id="fname"
@@ -58,9 +51,10 @@ const Contact = () => {
             <div className="col-12 col-sm-6 half contact-section">
               <p className="lead">{contact.pitch}</p>
               <div className="d-flex justify-content-center align-items-center flex-column">
-                <div className="inline-block">
+                <div className="inline-block socials">
                   {social.linkedin && (
                     <a
+                      className="social-link"
                       title="Visit Linkedin profile"
                       rel="noopener noreferrer"
                       target="_blank"
@@ -104,6 +98,7 @@ const Contact = () => {
                   )}
                   {social.github && (
                     <a
+                      className="social-link"
                       title="Visit Github profile"
                       rel="noopener noreferrer"
                       target="_blank"
