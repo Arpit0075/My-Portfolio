@@ -51,38 +51,38 @@ const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
               {/* {skill} */}
               {skill === "MERN" ? (
                 <div className="skill-icon">
-                  <img src={mongo} className="icon" alt="" srcset="" />
-                  <img src={react} className="icon" alt="" srcset="" />
-                  <img src={node} className="icon" alt="" srcset="" />
+                  <img src={mongo} className="icon" alt="mongo" />
+                  <img src={react} className="icon" alt="react" />
+                  <img src={node} className="icon" alt="node" />
                 </div>
               ) : null}
               {skill === "React Firebase" ? (
                 <div className="skill-icon">
-                  <img src={react} className="icon" alt="" srcset="" />
-                  <img src={firebase} className="icon" alt="" srcset="" />
+                  <img src={react} className="icon" alt="react" />
+                  <img src={firebase} className="icon" alt="firebase" />
                 </div>
               ) : null}
               {skill === "React DynamoDb Lambda" ? (
                 <div className="skill-icon">
-                  <img src={react} className="icon" alt="" srcset="" />
-                  <img src={dynamodb} className="icon" alt="" srcset="" />
-                  <img src={lambda} className="icon" alt="" srcset="" />
+                  <img src={react} className="icon" alt="react" />
+                  <img src={dynamodb} className="icon" alt="dynamodb" />
+                  <img src={lambda} className="icon" alt="lambda" />
                 </div>
               ) : null}
               {skill === "MERN Razorpay" ? (
                 <div className="skill-icon">
-                  <img src={mongo} className="icon" alt="" srcset="" />
-                  <img src={react} className="icon" alt="" srcset="" />
-                  <img src={node} className="icon" alt="" srcset="" />
-                  <img src={razorpay} className="iconR" alt="" srcset="" />
+                  <img src={mongo} className="icon" alt="mongo" />
+                  <img src={react} className="icon" alt="react" />
+                  <img src={node} className="icon" alt="node" />
+                  <img src={razorpay} className="iconR" alt="razorpay" />
                 </div>
               ) : null}
               {skill === "MERN Socketio" ? (
                 <div className="skill-icon">
-                  <img src={mongo} className="icon" alt="" srcset="" />
-                  <img src={react} className="icon" alt="" srcset="" />
-                  <img src={node} className="icon" alt="" srcset="" />
-                  <img src={socketio} className="icon" alt="" srcset="" />
+                  <img src={mongo} className="icon" alt="mongo" />
+                  <img src={react} className="icon" alt="react" />
+                  <img src={node} className="icon" alt="node" />
+                  <img src={socketio} className="icon" alt="socketio" />
                 </div>
               ) : null}
             </>
