@@ -268,7 +268,7 @@ button:focus {
   display: block;
   margin: 3rem 3rem 0 3rem;
   background-color: #fff;
-  max-height: 80vh;
+  max-height: max-content;
 }
 .git-head-div {
   box-sizing: border-box;

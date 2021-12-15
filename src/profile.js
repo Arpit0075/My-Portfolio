@@ -101,6 +101,14 @@ const projects = [
     githubUrl: "https://github.com/Arpit0075/AWS-usersApi",
     liveUrl: "https://main.d39jd3p9en6gka.amplifyapp.com/",
   },
+  {
+    //  image in './styles/images.css' in #project6
+    id: "project6",
+    name: "Game of Thrones App",
+    skills: ["HTML CSS Javascript"],
+    githubUrl: "https://github.com/Arpit0075/Mini-Projects/tree/main/GOT",
+    liveUrl: "https://got-1.netlify.app/",
+  },
 ];
 
 //contact

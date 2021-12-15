@@ -7,6 +7,9 @@ import dynamodb from "../../Images/dynamodb.svg";
 import lambda from "../../Images/lambda.svg";
 import socketio from "../../Images/socket-io.svg";
 import razorpay from "../../Images/razorpay.svg";
+import html from "../../Images/html.svg";
+import css from "../../Images/css.png";
+import js from "../../Images/js.svg";
 
 const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
   const [state, setState] = useState(false);
@@ -116,6 +119,16 @@ const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
                     />
                   </div>
                   <h3>{state && "MongoDb, React, NodeJs, SocketIo"} </h3>
+                </>
+              ) : null}
+              {skill === "HTML CSS Javascript" ? (
+                <>
+                  <div className="skill-icon">
+                    <img src={html} className="icon mongo" alt="html" />
+                    <img src={css} className="icon react" alt="css" />
+                    <img src={js} className="icon node" alt="js" />
+                  </div>
+                  <h3>{state && "HTML, CSS, Javascript"} </h3>
                 </>
               ) : null}
             </>
