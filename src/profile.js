@@ -96,7 +96,7 @@ const projects = [
   {
     //  image in './styles/images.css' in #project5
     id: "project5",
-    name: "AWS-CRUD ",
+    name: "AWS User Management",
     skills: ["React DynamoDb Lambda"],
     githubUrl: "https://github.com/Arpit0075/AWS-usersApi",
     liveUrl: "https://main.d39jd3p9en6gka.amplifyapp.com/",
