@@ -104,10 +104,10 @@ const projects = [
   {
     //  image in './styles/images.css' in #project6
     id: "project6",
-    name: "Game of Thrones App",
+    name: "Space Invaders",
     skills: ["HTML CSS Javascript"],
-    githubUrl: "https://github.com/Arpit0075/Mini-Projects/tree/main/GOT",
-    liveUrl: "https://got-1.netlify.app/",
+    githubUrl: "https://github.com/Arpit0075/Space-Invaders",
+    liveUrl: "https://space-invaders1.netlify.app/",
   },
 ];
 
