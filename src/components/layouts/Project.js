@@ -8,7 +8,7 @@ import lambda from "../../Images/lambda.svg";
 import socketio from "../../Images/socket-io.svg";
 import razorpay from "../../Images/razorpay.svg";
 import html from "../../Images/html.svg";
-import css from "../../Images/CSS.svg";
+import css from "../../Images/css.svg";
 import js from "../../Images/js.svg";
 
 const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
