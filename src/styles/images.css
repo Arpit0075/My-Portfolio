@@ -12,15 +12,15 @@
   cursor: pointer;
 }
 .project3 {
-  background-image: url(../Images/task.png);
-  cursor: pointer;
-}
-.project4 {
   background-image: url(../Images/google-drive.png);
   cursor: pointer;
 }
+.project4 {
+  background-image: url(../Images/weather-app.png);
+  cursor: pointer;
+}
 .project5 {
-  background-image: url(../Images/aws.png);
+  background-image: url(../Images/GOT.png);
   cursor: pointer;
 }
 .project6 {

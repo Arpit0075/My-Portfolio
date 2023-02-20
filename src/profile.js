@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    " I am Full Stack Developer who loves designing and building stuffs,really excited to begin the journey in IT. I like logic and structure of coding and always strive to write elegant and effective code",
+    "I am a Full Stack Developer who loves designing and building stuffs. I like logic and structure of coding and always strive to write elegant and effective code",
 };
 //  skill
 
@@ -60,52 +60,52 @@ const skillsBar = [
 
 const section3Title = "Projects";
 const projects = [
-  {
-    //  image in './styles/images.css' in #project1
-    id: "project1",
-    name: "E-commerce",
-    skills: ["MERN Razorpay"],
-    githubUrl: "https://github.com/Arpit0075/ecommerce",
-    liveUrl: "https://ecommerce918.netlify.app",
-  },
-  {
-    //  image in './styles/images.css' in #project2
-    id: "project2",
-    name: "Group Chat",
-    skills: ["MERN Socketio"],
-    icon: "https://img.icons8.com/color/48/000000/mongodb.png",
-    githubUrl: "https://github.com/Arpit0075/chatApp",
-    liveUrl: "https://chatapp978.netlify.app",
-  },
+  // {
+  //   //  image in './styles/images.css' in #project1
+  //   id: "project1",
+  //   name: "E-commerce",
+  //   skills: ["MERN Razorpay"],
+  //   githubUrl: "https://github.com/Arpit0075/ecommerce",
+  //   liveUrl: "https://ecommerce918.netlify.app",
+  // },
+  // {
+  //   //  image in './styles/images.css' in #project2
+  //   id: "project2",
+  //   name: "Group Chat",
+  //   skills: ["MERN Socketio"],
+  //   icon: "https://img.icons8.com/color/48/000000/mongodb.png",
+  //   githubUrl: "https://github.com/Arpit0075/chatApp",
+  //   liveUrl: "https://chatapp978.netlify.app",
+  // },
   {
     //  image in './styles/images.css' in #project3
     id: "project3",
-    name: "Task Portal",
-    skills: ["MERN"],
-    githubUrl: "https://github.com/Arpit0075/StudentTasks",
-    liveUrl: "https://student-task1.netlify.app/",
+    name: "Google-Drive-Clone",
+    skills: ["REACT ", "FIREBASE"],
+    githubUrl: "https://github.com/Arpit0075/google-drive-clone",
+    liveUrl: "https://drive-clone-a509e.web.app/",
   },
   {
     //  image in './styles/images.css' in #project4
     id: "project4",
-    name: "Google-Drive-Clone",
-    skills: ["React Firebase"],
-    githubUrl: "https://github.com/Arpit0075/google-drive-clone",
-    liveUrl: "https://drive-clone-a509e.web.app",
+    name: "Weather Application",
+    skills: ["REACT"],
+    githubUrl: "https://github.com/Arpit0075/weather-app",
+    liveUrl: "https://weather-app-09.netlify.app/",
   },
   {
     //  image in './styles/images.css' in #project5
     id: "project5",
-    name: "AWS User Management",
-    skills: ["React DynamoDb Lambda"],
-    githubUrl: "https://github.com/Arpit0075/AWS-usersApi",
-    liveUrl: "https://main.d39jd3p9en6gka.amplifyapp.com/",
+    name: "Game of Thrones App",
+    skills: ["HTML ", "CSS ", "JAVASCRIPT"],
+    githubUrl: "https://github.com/Arpit0075/Mini-Projects/tree/main/GOT",
+    liveUrl: "https://got-1.netlify.app/",
   },
   {
     //  image in './styles/images.css' in #project6
     id: "project6",
     name: "Space Invaders",
-    skills: ["HTML CSS Javascript"],
+    skills: ["HTML ", "CSS ", "JAVASCRIPT"],
     githubUrl: "https://github.com/Arpit0075/Space-Invaders",
     liveUrl: "https://space-invaders1.netlify.app/",
   },
@@ -115,16 +115,13 @@ const projects = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "I am open to collaborate on projects. Thanks for checking my webpage,have a great one!!",
+    "I am open to collaborate on projects. Thanks for checking my webpage,have a good one!",
   copyright: "Arpit Lal",
   contactUrl: "",
 };
 
 const social = {
   github: "https://github.com/Arpit0075",
-  //facebook: "https://facebook.com",
-  // twitter: "https://twitter.com",
-  //instagram: "https://instagram.com",
   linkedin: "https://linkedin.com/in/arpit-lal123",
 };
 

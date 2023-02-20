@@ -1,17 +1,13 @@
 import React, { useState } from "react";
-import mongo from "../../Images/mongo.png";
 import react from "../../Images/react.svg";
-import node from "../../Images/node.svg";
-import firebase from "../../Images/firebase.svg";
-import dynamodb from "../../Images/dynamodb.svg";
-import lambda from "../../Images/lambda.svg";
-import socketio from "../../Images/socket-io.svg";
-import razorpay from "../../Images/razorpay.svg";
 import html from "../../Images/html.svg";
 import css from "../../Images/css.svg";
 import js from "../../Images/js.svg";
+import firebase from "../../Images/firebase.svg";
 
 const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
+  console.log(skills);
+  console.log(skills.includes("HTML"));
   const [state, setState] = useState(false);
   return (
     <div
@@ -43,98 +39,35 @@ const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
           <h3>Code</h3>
         </a>
       </div>
-      {skills && (
-        <div
-          onMouseEnter={() => {
-            setState(true);
-          }}
-          onMouseLeave={() => {
-            setState(false);
-          }}
-        >
-          {skills.map((skill) => (
-            <>
-              {skill === "MERN" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={mongo} className="icon mongo" alt="mongo" />
-                    <img src={react} className="icon react" alt="react" />
-                    <img src={node} className="icon node" alt="node" />
-                  </div>
-                  <h3>{state && "Mongodb, React, NodeJs"} </h3>
-                </>
-              ) : null}
-              {skill === "React Firebase" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={react} className="icon react" alt="react" />
-                    <img
-                      src={firebase}
-                      className="icon firebase"
-                      alt="firebase"
-                    />
-                  </div>
-                  <h3>{state && "React Firebase"} </h3>
-                </>
-              ) : null}
-              {skill === "React DynamoDb Lambda" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={react} className="icon react" alt="react" />
-                    <img
-                      src={dynamodb}
-                      className="icon dynamodb"
-                      alt="dynamodb"
-                    />
-                    <img src={lambda} className="icon lambda" alt="lambda" />
-                  </div>
-                  <h3>{state && "React, DynamoDb, Lambda"} </h3>
-                </>
-              ) : null}
-              {skill === "MERN Razorpay" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={mongo} className="icon mongo" alt="mongo" />
-                    <img src={react} className="icon react" alt="react" />
-                    <img src={node} className="icon node" alt="node" />
-                    <img
-                      src={razorpay}
-                      className="iconR razorpay"
-                      alt="razorpay"
-                    />
-                  </div>
-                  <h3>{state && "MongoDb, React, NodeJs, Razorpay"} </h3>
-                </>
-              ) : null}
-              {skill === "MERN Socketio" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={mongo} className="icon mongo" alt="mongo" />
-                    <img src={react} className="icon react" alt="react" />
-                    <img src={node} className="icon node" alt="node" />
-                    <img
-                      src={socketio}
-                      className="icon socketio"
-                      alt="socketio"
-                    />
-                  </div>
-                  <h3>{state && "MongoDb, React, NodeJs, SocketIo"} </h3>
-                </>
-              ) : null}
-              {skill === "HTML CSS Javascript" ? (
-                <>
-                  <div className="skill-icon">
-                    <img src={html} className="icon mongo" alt="html" />
-                    <img src={css} className="icon react" alt="css" />
-                    <img src={js} className="icon node" alt="js" />
-                  </div>
-                  <h3>{state && "HTML, CSS, Javascript"} </h3>
-                </>
-              ) : null}
-            </>
-          ))}
-        </div>
-      )}
+      <div
+        onMouseEnter={() => {
+          setState(true);
+        }}
+        onMouseLeave={() => {
+          setState(false);
+        }}
+      >
+        <>
+          <div className="skill-icon">
+            {(skills.includes("REACT") || skills.includes("REACT ")) && (
+              <img src={react} className="icon react" alt="react" />
+            )}
+            {skills.includes("FIREBASE") && (
+              <img src={firebase} className="icon mongo" alt="html" />
+            )}
+            {skills.includes("HTML ") && (
+              <img src={html} className="icon mongo" alt="html" />
+            )}
+            {skills.includes("CSS ") && (
+              <img src={css} className="icon react" alt="css" />
+            )}
+            {skills.includes("JAVASCRIPT") && (
+              <img src={js} className="icon node" alt="js" />
+            )}
+          </div>
+          <h3>{state && skills} </h3>
+        </>
+      </div>
     </div>
   );
 };
