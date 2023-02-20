@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "I am a Full Stack Developer who loves designing and building stuffs. I like logic and structure of coding and always strive to write elegant and effective code",
+    " I am a Full Stack Developer who loves designing and building stuffs,really excited to begin the journey in IT. I like logic and structure of coding and always strive to write elegant and effective code",
 };
 //  skill
 
@@ -115,7 +115,7 @@ const projects = [
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "I am open to collaborate on projects. Thanks for checking my webpage,have a good one!",
+    "I am open to collaborate on projects. Thanks for checking my webpage, have a good one!",
   copyright: "Arpit Lal",
   contactUrl: "",
 };
