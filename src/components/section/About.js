@@ -20,7 +20,7 @@ const About = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://drive.google.com/file/d/1GCP5sCPfiVaIy46nh7pbXOn7SYjUuln1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1X7T2eNRpIfofjLn5VQeXbvUXazLzQRE8/view?usp=sharing"
           >
             <h3>Download my resume here</h3>
           </a>
