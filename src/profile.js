@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    " I am a Full Stack Developer who loves designing and building stuffs,really excited to begin the journey in IT. I like logic and structure of coding and always strive to write elegant and effective code",
+    "Highly organized, detail-oriented Full Stack Developer with an experience of around one and half year working in a startup. Excellent problem solving and communication skills with the ability to work on tight deadlines. Passionate about creating innovative and user-friendly software solutions to improve user experience",
 };
 
 //  skill
