@@ -4,10 +4,11 @@ import html from "../../Images/html.svg";
 import css from "../../Images/css.svg";
 import js from "../../Images/js.svg";
 import firebase from "../../Images/firebase.svg";
+import mongo from "../../Images/mongo.png";
+import node from "../../Images/node.svg";
+import express from "../../Images/express.png";
 
 const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
-  console.log(skills);
-  console.log(skills.includes("HTML"));
   const [state, setState] = useState(false);
   return (
     <div
@@ -63,6 +64,14 @@ const Project = ({ id, name, liveUrl, githubUrl, skills }) => {
             )}
             {skills.includes("JAVASCRIPT") && (
               <img src={js} className="icon node" alt="js" />
+            )}
+            {skills.includes("MERN") && (
+              <>
+                <img src={mongo} className="icon node" alt="mongoDb" />
+                <img src={express} className="icon node" alt="expressJs" />
+                <img src={react} className="icon node" alt="react" />
+                <img src={node} className="icon node" alt="nodeJs" />
+              </>
             )}
           </div>
           <h3>{state && skills} </h3>

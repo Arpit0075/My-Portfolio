@@ -22,8 +22,8 @@ const about = {
   paragraph:
     " I am a Full Stack Developer who loves designing and building stuffs,really excited to begin the journey in IT. I like logic and structure of coding and always strive to write elegant and effective code",
 };
-//  skill
 
+//  skill
 const skillsBar = [
   {
     name: "HTML5",
@@ -60,14 +60,14 @@ const skillsBar = [
 
 const section3Title = "Projects";
 const projects = [
-  // {
-  //   //  image in './styles/images.css' in #project1
-  //   id: "project1",
-  //   name: "E-commerce",
-  //   skills: ["MERN Razorpay"],
-  //   githubUrl: "https://github.com/Arpit0075/ecommerce",
-  //   liveUrl: "https://ecommerce918.netlify.app",
-  // },
+  {
+    //  image in './styles/images.css' in #project1
+    id: "project1",
+    name: "E-commerce",
+    skills: ["MERN"],
+    githubUrl: "https://github.com/Arpit0075/ecommerce",
+    liveUrl: "https://ecommerce918.netlify.app",
+  },
   // {
   //   //  image in './styles/images.css' in #project2
   //   id: "project2",
@@ -101,13 +101,21 @@ const projects = [
     githubUrl: "https://github.com/Arpit0075/Mini-Projects/tree/main/GOT",
     liveUrl: "https://got-1.netlify.app/",
   },
+  // {
+  //   //  image in './styles/images.css' in #project6
+  //   id: "project6",
+  //   name: "Space Invaders",
+  //   skills: ["HTML ", "CSS ", "JAVASCRIPT"],
+  //   githubUrl: "https://github.com/Arpit0075/Space-Invaders",
+  //   liveUrl: "https://space-invaders1.netlify.app/",
+  // },
   {
     //  image in './styles/images.css' in #project6
     id: "project6",
-    name: "Space Invaders",
-    skills: ["HTML ", "CSS ", "JAVASCRIPT"],
-    githubUrl: "https://github.com/Arpit0075/Space-Invaders",
-    liveUrl: "https://space-invaders1.netlify.app/",
+    name: "Class Room",
+    skills: ["MERN"],
+    githubUrl: "https://github.com/Arpit0075/StudentTasks",
+    liveUrl: "https://student-task1.netlify.app/",
   },
 ];
 
