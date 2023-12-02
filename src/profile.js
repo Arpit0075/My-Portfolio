@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Highly organized, detail-oriented Full Stack Developer with an experience of around one and half year working in a startup. Excellent problem solving and communication skills with the ability to work on tight deadlines. Passionate about creating innovative and user-friendly software solutions to improve user experience",
+    "Highly organized, detail-oriented Full Stack Developer with an experience of more than one year working in a startup. Excellent problem-solving and communication skills with the ability to work on tight deadlines. Passionate about creating innovative and user-friendly software solutions to improve user experience.",
 };
 
 //  skill
